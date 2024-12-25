@@ -6,3 +6,17 @@ TAB ( \t )。
 也可以使用换行符 [ \n ]。
 """
 print(para_str)
+
+sql = """
+select
+    FIELD1,
+    FIELD2,
+    FIELD3
+from
+    TEST_TABLE
+where
+    FIELD4 = "test"
+order by
+    FIELD5 desc
+"""
+print(sql)
