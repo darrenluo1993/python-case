@@ -1,0 +1,5 @@
+tup = ('Google', 'Runoob', 'Taobao', 'Wiki', 'Weibo', 'Weixin')
+print(tup[1])
+print(tup[-2])
+print(tup[1:])
+print(tup[1:4])
