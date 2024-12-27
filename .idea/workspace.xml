@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e2f266b-f9f0-450a-a7bb-caede1680f23" name="Changes" comment="feat(元组和列表): 添加元组和列表的相关操作脚本&#10;&#10;- 新增修改元组、创建元组、删除元组、访问元组等元组操作脚本&#10;- 新增列表比较、删除列表元素、更新列表、访问列表中的值等列表操作脚本&#10;- 新增字符串内建函数脚本，演示字符串的各种内建函数用法&#10;- 更新工作区配置，添加新的运行配置和任务记录">
-      <changelist_data name="Darren Luo" email="darrenluo1993@163.com" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/darren/元组/元组内置函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/darren/元组/元组索、截取.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/darren/字典(Map)/修改字典.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/darren/字典(Map)/创建空字典.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/darren/字典(Map)/删除字典元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pers/darren/字典(Map)/访问字典里的值.py" afterDir="false" />
+    <list default="true" id="2e2f266b-f9f0-450a-a7bb-caede1680f23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pers/darren/循环语句/for语句.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/darren/循环语句/while循环 .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/darren/循环语句/while循环使用else语句.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/darren/条件控制/if嵌套.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/darren/条件控制/if语句.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/darren/条件控制/match...case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/darren/元组/删除元组.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/darren/元组/删除元组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/darren/元组/访问元组.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/darren/元组/访问元组.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,77 +60,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.f-string.executor&quot;: &quot;Run&quot;,
-    &quot;Python.format格式化函数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.line_retract.executor&quot;: &quot;Run&quot;,
-    &quot;Python.multiline_comment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.single-line-comment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.single-line_comment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.三引号.executor&quot;: &quot;Run&quot;,
-    &quot;Python.修改元组.executor&quot;: &quot;Run&quot;,
-    &quot;Python.修改字典.executor&quot;: &quot;Run&quot;,
-    &quot;Python.元组内置函数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.元组索、截取.executor&quot;: &quot;Run&quot;,
-    &quot;Python.列表比较.executor&quot;: &quot;Run&quot;,
-    &quot;Python.创建元组.executor&quot;: &quot;Run&quot;,
-    &quot;Python.创建空字典.executor&quot;: &quot;Run&quot;,
-    &quot;Python.删除元组.executor&quot;: &quot;Run&quot;,
-    &quot;Python.删除列表元素.executor&quot;: &quot;Run&quot;,
-    &quot;Python.删除字典元素.executor&quot;: &quot;Run&quot;,
-    &quot;Python.单行注释.executor&quot;: &quot;Run&quot;,
-    &quot;Python.多行注释.executor&quot;: &quot;Run&quot;,
-    &quot;Python.字符串内建函数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.字符串更新.executor&quot;: &quot;Run&quot;,
-    &quot;Python.字符串格式化.executor&quot;: &quot;Run&quot;,
-    &quot;Python.字符串运算符 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.字符串运算符.executor&quot;: &quot;Run&quot;,
-    &quot;Python.更新列表.executor&quot;: &quot;Run&quot;,
-    &quot;Python.行与缩进.executor&quot;: &quot;Run&quot;,
-    &quot;Python.访问元组.executor&quot;: &quot;Run&quot;,
-    &quot;Python.访问列表中的值.executor&quot;: &quot;Run&quot;,
-    &quot;Python.访问字典里的值.executor&quot;: &quot;Run&quot;,
-    &quot;Python.访问字符串中的值.executor&quot;: &quot;Run&quot;,
-    &quot;Python.转义字符.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.__init__.executor": "Run",
+    "Python.f-string.executor": "Run",
+    "Python.format格式化函数.executor": "Run",
+    "Python.for语句.executor": "Run",
+    "Python.if 语句.executor": "Run",
+    "Python.if嵌套.executor": "Run",
+    "Python.if语句.executor": "Run",
+    "Python.line_retract.executor": "Run",
+    "Python.match...case.executor": "Run",
+    "Python.multiline_comment.executor": "Run",
+    "Python.single-line-comment.executor": "Run",
+    "Python.single-line_comment.executor": "Run",
+    "Python.while循环 .executor": "Run",
+    "Python.while循环使用else语句.executor": "Run",
+    "Python.三引号.executor": "Run",
+    "Python.修改元组.executor": "Run",
+    "Python.修改字典.executor": "Run",
+    "Python.元组内置函数.executor": "Run",
+    "Python.元组索、截取.executor": "Run",
+    "Python.列表比较.executor": "Run",
+    "Python.创建元组.executor": "Run",
+    "Python.创建空字典.executor": "Run",
+    "Python.删除元组.executor": "Run",
+    "Python.删除列表元素.executor": "Run",
+    "Python.删除字典元素.executor": "Run",
+    "Python.单行注释.executor": "Run",
+    "Python.多行注释.executor": "Run",
+    "Python.字符串内建函数.executor": "Run",
+    "Python.字符串更新.executor": "Run",
+    "Python.字符串格式化.executor": "Run",
+    "Python.字符串运算符 (1).executor": "Run",
+    "Python.字符串运算符.executor": "Run",
+    "Python.更新列表.executor": "Run",
+    "Python.行与缩进.executor": "Run",
+    "Python.访问元组.executor": "Run",
+    "Python.访问列表中的值.executor": "Run",
+    "Python.访问字典里的值.executor": "Run",
+    "Python.访问字符串中的值.executor": "Run",
+    "Python.转义字符.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="删除字典元素" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-case" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pers/darren/字典(Map)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pers/darren/字典(Map)/删除字典元素.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Python.for语句">
     <configuration name="元组内置函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-case" />
       <option name="ENV_FILES" value="" />
@@ -272,9 +253,128 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="for语句" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-case" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pers/darren/循环语句" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pers/darren/循环语句/for语句.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="if嵌套" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-case" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pers/darren/条件控制" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pers/darren/条件控制/if嵌套.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="match...case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-case" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pers/darren/条件控制" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pers/darren/条件控制/match...case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="while循环 " type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-case" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pers/darren/循环语句" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pers/darren/循环语句/while循环 .py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="while循环使用else语句" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-case" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pers/darren/循环语句" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pers/darren/循环语句/while循环使用else语句.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.删除字典元素" />
+        <item itemvalue="Python.for语句" />
+        <item itemvalue="Python.while循环使用else语句" />
+        <item itemvalue="Python.while循环 " />
+        <item itemvalue="Python.match...case" />
+        <item itemvalue="Python.if嵌套" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +398,9 @@
       <workItem from="1732761549383" duration="37000" />
       <workItem from="1734510728418" duration="198000" />
       <workItem from="1735115633470" duration="4880000" />
-      <workItem from="1735174882156" duration="9939000" />
+      <workItem from="1735174882156" duration="10199000" />
+      <workItem from="1735267431877" duration="2238000" />
+      <workItem from="1735282113109" duration="2619000" />
     </task>
     <task id="LOCAL-00001" summary="字符串格式化、三引号">
       <option name="closed" value="true" />
@@ -316,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735180734677</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(元组和列表): 添加元组和列表的相关操作脚本&#10;&#10;- 新增修改元组、创建元组、删除元组、访问元组等元组操作脚本&#10;- 新增列表比较、删除列表元素、更新列表、访问列表中的值等列表操作脚本&#10;- 新增字符串内建函数脚本，演示字符串的各种内建函数用法&#10;- 更新工作区配置，添加新的运行配置和任务记录">
+      <option name="closed" value="true" />
+      <created>1735206118808</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735206118808</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,13 +480,19 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_case$if_.coverage" NAME="if语句 Coverage Results" MODIFIED="1735292317627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/条件控制" />
+    <SUITE FILE_PATH="coverage/python_case$while_.coverage" NAME="while循环  Coverage Results" MODIFIED="1735292667439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/循环语句" />
+    <SUITE FILE_PATH="coverage/python_case$__1_.coverage" NAME="字符串运算符 (1) Coverage Results" MODIFIED="1735117601224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/字符串" />
+    <SUITE FILE_PATH="coverage/python_case$if.coverage" NAME="if嵌套 Coverage Results" MODIFIED="1735292345880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/条件控制" />
+    <SUITE FILE_PATH="coverage/python_case$multiline_comment.coverage" NAME="multiline_comment Coverage Results" MODIFIED="1735115716563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/comment" />
+    <SUITE FILE_PATH="coverage/python_case$for.coverage" NAME="for语句 Coverage Results" MODIFIED="1735292953641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/循环语句" />
     <SUITE FILE_PATH="coverage/python_case$line_retract.coverage" NAME="line_retract Coverage Results" MODIFIED="1735115723818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/lineretract" />
     <SUITE FILE_PATH="coverage/python_case$single_line_comment.coverage" NAME="single-line_comment Coverage Results" MODIFIED="1735116474968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/comment" />
     <SUITE FILE_PATH="coverage/python_case$format.coverage" NAME="format格式化函数 Coverage Results" MODIFIED="1735118048264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/字符串" />
     <SUITE FILE_PATH="coverage/python_case$.coverage" NAME="删除字典元素 Coverage Results" MODIFIED="1735205002376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/字典(Map)" />
     <SUITE FILE_PATH="coverage/python_case$f_string.coverage" NAME="f-string Coverage Results" MODIFIED="1735120520584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/字符串" />
     <SUITE FILE_PATH="coverage/python_case$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1735117557902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren" />
-    <SUITE FILE_PATH="coverage/python_case$__1_.coverage" NAME="字符串运算符 (1) Coverage Results" MODIFIED="1735117601224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/字符串" />
-    <SUITE FILE_PATH="coverage/python_case$multiline_comment.coverage" NAME="multiline_comment Coverage Results" MODIFIED="1735115716563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/comment" />
+    <SUITE FILE_PATH="coverage/python_case$match___case.coverage" NAME="match...case Coverage Results" MODIFIED="1735292596559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/条件控制" />
+    <SUITE FILE_PATH="coverage/python_case$whileelse.coverage" NAME="while循环使用else语句 Coverage Results" MODIFIED="1735292680452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/pers/darren/循环语句" />
   </component>
 </project>
